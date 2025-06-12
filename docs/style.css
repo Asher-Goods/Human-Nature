@@ -1,0 +1,428 @@
+/* Importing fonts */
+@font-face {
+	font-family: 'Roboto';
+	src: url('Font/Roboto-Light-webfont.woff') format('woff');
+	font-style: normal;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Font/Roboto-LightItalic-webfont.woff') format('woff');
+	font-style: italic;
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('Font/Roboto-Bold-webfont.woff') format('woff');
+	font-style: normal;
+	font-weight: 700;
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 16px;
+	min-width: 370px;
+	margin: 0;
+	color: #fff;
+}
+
+html, .circuit_background {
+	background: url(Images/background.png) no-repeat center center fixed;
+	background-size: cover;
+	background-color: #000;
+}
+
+
+
+header {
+	color: #6f8b7d;
+	padding: 20px;
+	text-align: center;
+}
+
+
+
+/* Nav */
+/* ********************************** */
+nav {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+}
+
+nav li {
+    /* display: block; */
+    margin-bottom: 2em; /* actual vertical spacing */
+}
+
+.title-box {
+	background-color: #4e4b4b;
+	color: #fff;
+	padding: 0.5em 1.5em 0.25em 1.5em;;
+	border: 2px solid white;
+	margin-bottom: 2em;
+	text-align: center;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title-box h1 {
+  font-size: 3em; /* Bigger title */
+  font-weight: 700;
+}
+
+.title-box h2 {
+    font-style: italic;
+    margin: 0.2em 0 0.50em 0;       /* top, right, bottom, left */
+    line-height: 1.2em;
+	font-size: 1.5em;
+}
+
+.spacer {
+  height: 15em; /* Adjust as needed */
+}
+
+
+/* ********************************** */
+
+
+/* Button */
+/* ********************************** */
+nav a.button {
+	display: block;
+	width: 250px;
+	margin: 1.5em auto; /* vertical spacing and center alignment */
+	padding: 1em;
+	border: 2px solid #fff;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	background-color: #4e4b4b;
+	transition: background-color 0.3s ease;
+}
+
+nav a.button:hover {
+	background-color: #76acad;
+	color: #fff;
+}
+
+
+/* ********************************** */
+
+footer {
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+nav,
+.spacer,
+main {
+  flex-shrink: 0; /* Don't shrink these sections */
+}
+
+footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.spaced-paragraph {
+  margin-top: 1.5em; /* or whatever spacing you want */
+}
+
+
+/* ********************************** */
+
+.h1spacer {
+	margin-bottom: 1.5em;
+}
+
+/* Main menu container */
+/* ********************************** */
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+.container_item {
+	flex: 1;
+	margin: 0 0.5em;
+	text-align: center;
+}
+.container_box {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+	max-width: 60em;
+
+}
+
+.container_textbox {
+	display: flex;
+	width: 21em;
+	min-height: 5em;
+	flex-direction: column;
+	border: 2px solid #ddd;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding: 1.5em;
+	margin: .5em;
+	background-color: #4e4b4b; /* match nav bar */
+}
+
+
+.container_textbox h3 {
+	margin-bottom: 1em;
+	/*text-decoration: underline;*/
+}
+
+.container_headshot {
+	justify-content: center;
+	margin-left: 1.5em;
+	margin-right: 1.5em;
+	margin-bottom: 1em;
+}
+
+.container_headshot img {
+	border: .1em solid #ddd;
+	padding: .25em;
+	height: 10em;
+	width: 8em;
+}
+
+/* .container_aboutbox {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	width: 15em;
+	height: 8em;
+	align-items: flex-start;
+	background-color: #4e4b4b;
+	padding: .5em;
+	border: .1em solid #ddd;
+	margin-bottom: 1em;
+
+} */
+
+.container_contactbox {
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.logo{
+	width: 3em;
+	height: 3em;
+	justify-content: center;
+	align-self:center;	
+}
+
+
+.container_aboutbox p {
+	margin-bottom: .4em;
+}
+
+/* ********************************** */
+
+.bar {
+	height: .2em;
+	background-color: #ddd;
+	margin: 1em auto;
+}
+
+/* ********************************** */
+
+
+.container_navbar ul {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	align-items: center;
+}
+
+.container_navbar li{
+	/* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center; */
+	margin-left: .5em;
+	margin-right: .5em;
+	}
+
+/* ********************************** */
+
+
+.projects-grid-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.projects-grid {
+	width: 900px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+
+	border-radius: 5px;
+	padding: 1em;
+}
+
+.project-box {
+	height: 15em;
+	width: 15em;
+	justify-content: center;
+
+}
+
+.project-box h2 {
+	margin-top: 0.5em;
+	text-align: center;
+}
+
+.project-box img {
+	border: .3em solid #ddd;
+	padding: .25em;
+	height: 10em;
+	width: 10em;
+}
+
+.project-box a {
+	display: flex;
+	color: #ddd;
+	text-decoration: none;
+
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* ********************************** */
+
+
+header {
+	text-align: center;
+	margin: 1em;
+}
+
+.footer {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+
+
+/* styles depending on device */
+/* Mobile Styles */
+/* @media only screen and (max-width: 400px) {
+	body {
+		font-size: 14px;
+	}
+} */
+
+/* Tablet Styles */
+/* @media only screen and (min-width: 401px) and (max-width: 960px) {
+	html {
+		zoom: 150%;
+	}
+
+	p {
+		font-size: 10px;
+	}
+
+	li {
+		font-size: 10px;
+	}
+
+	.container_textbox {
+		width: 15em;
+		height: 10em;
+		margin: .5em;
+	}
+
+	.container_box{
+		flex-direction:row;
+		align-items: center;
+		width:auto;
+		margin-left: .5em;
+		margin-right: .5em;
+		flex-wrap: wrap;
+	}
+
+
+} */
+
+/* Desktop Styles */
+/* @media only screen and (min-width: 961px) {
+	html {
+		zoom: 120%;
+	}
+
+	.container_headshot img {
+		border: .2em solid #ddd;
+		height: 20em;
+		width: 16em;
+	}
+
+	.container_aboutbox {
+		width: 20em;
+		height: 16em;
+		border: .2em solid #ddd;
+	}
+
+	.container_aboutbox p {
+		margin-bottom: .5em;
+	} */
+
+}
