@@ -72,7 +72,7 @@ nav li {
 }
 
 .title-box {
-	background-color: #4e4b4b;
+	background-color: #60aeb0;
 	color: #fff;
 	padding: 0.5em 1.5em 0.25em 1.5em;;
 	border: 2px solid white;
@@ -114,7 +114,7 @@ nav a.button {
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
-	background-color: #4e4b4b;
+	background-color: #60aeb0;
 	transition: background-color 0.3s ease;
 }
 
@@ -208,7 +208,7 @@ footer {
 	align-items: flex-start;
 	padding: 1.5em;
 	margin: .5em;
-	background-color: #4e4b4b; /* match nav bar */
+	background-color: #60aeb0; /* match nav bar */
 }
 
 
@@ -226,9 +226,9 @@ footer {
 
 .container_headshot img {
 	border: .1em solid #ddd;
-	padding: .25em;
+	padding: 0em;
 	height: 10em;
-	width: 8em;
+	width: 10em;
 }
 
 /* .container_aboutbox {
@@ -240,7 +240,7 @@ footer {
 	width: 15em;
 	height: 8em;
 	align-items: flex-start;
-	background-color: #4e4b4b;
+	background-color: #60aeb0;
 	padding: .5em;
 	border: .1em solid #ddd;
 	margin-bottom: 1em;
@@ -452,7 +452,7 @@ footer {
 
   nav a.button,
   .container_navbar .button.small {
-    width: 200px;
+    width: 400px;
   }
 
   .container_headshot img {
