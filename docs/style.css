@@ -346,6 +346,26 @@ footer {
 	align-items: center;
 }
 
+.tba-note {
+  margin-top: 0.8em; /* adjust spacing as needed */
+}
+
+
+.button-main {
+  display: block;        /* forces it onto its own line */
+  font-size: 1.4em;      /* larger font */
+  font-weight: bold;     /* optional */
+  margin-bottom: 0.2em;  /* space between main and sub */
+}
+
+.button-sub {
+  display: block;        /* also full width */
+  font-size: 0.9em;      /* smaller font */
+  font-weight: normal;
+  line-height: 1.2em;    /* tighter spacing */
+}
+
+
 /* ********************************** */
 
 
