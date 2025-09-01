@@ -264,6 +264,13 @@ footer {
 	align-self:center;	
 }
 
+.logo-header {
+  max-width: 100%;
+  height: auto;
+  max-height: 120px; /* adjust until it matches the old header’s height */
+  display: block;
+  margin: 0 auto;
+}
 
 .container_aboutbox p {
 	margin-bottom: .4em;
@@ -419,6 +426,18 @@ nav a.button,
   max-width: 100%;
 }
 
+.container_office {
+	display: flex;
+	justify-content: center;
+	margin-top: 1em;
+}
+.container_office img {
+	max-width: 100%;
+	width: 800px;
+	border: 0.2em solid #ddd;
+}
+
+
 /* FOOTER sticks to bottom on small screens */
 footer {
   font-size: 0.9em;
@@ -479,4 +498,21 @@ footer {
     width: 100%;
     max-width: 800px;
   }
+}
+
+/* Apply rounded corners to all major boxes */
+.title-box,
+.page_title-box,
+.container_textbox,
+.container_aboutbox,
+.container_contactbox,
+.container_headshot img,
+nav a.button,
+.project-box,
+.projects-grid,
+.container_office,
+.container_office img,
+footer,
+header {
+  border-radius: 12px; /* adjust value to your taste */
 }
