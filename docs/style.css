@@ -106,16 +106,18 @@ nav li {
 /* Button */
 /* ********************************** */
 nav a.button {
-	display: block;
-	width: 250px;
-	margin: 1.5em auto; /* vertical spacing and center alignment */
-	padding: 1em;
-	border: 2px solid #fff;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-	background-color: #60aeb0;
-	transition: background-color 0.3s ease;
+    display: block;
+    width: 250px;
+    margin: 1.5em auto;
+    padding: 1em;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    background-color: #60aeb0;
+    transition: background-color 0.3s ease;
+    position: relative;      
+    overflow: hidden;        
 }
 
 nav a.button:hover {
@@ -370,6 +372,15 @@ footer {
   font-size: 0.9em;      /* smaller font */
   font-weight: normal;
   line-height: 1.2em;    /* tighter spacing */
+}
+
+
+.button-logo {
+  display: block;
+  height: 3.5em;  /* tweak until it matches the old text height */
+  width: auto;
+  max-width: 80%;
+  margin: 0 auto 0.2em auto; /* centers it and adds space below */
 }
 
 
