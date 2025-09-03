@@ -377,9 +377,8 @@ footer {
 
 .button-logo {
   display: block;
-  height: 3.5em;  /* tweak until it matches the old text height */
-  width: auto;
-  max-width: 80%;
+  height: auto; 
+  max-width: 60%;
   margin: 0 auto 0.2em auto; /* centers it and adds space below */
 }
 
@@ -424,7 +423,13 @@ body {
   max-width: 100%;
   padding: 1em;
   margin: 1em 0;
+  
 }
+.container_aboutbox p {
+  font-size: 1em;      /* or 16px, adjust as needed */
+  line-height: 1.5em;  /* optional: improves readability */
+}
+
 
 .container_headshot img {
   max-width: 100%;
